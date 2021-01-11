@@ -4,12 +4,12 @@
 .body__central__divGlobal {
   width: 80%;
   display: inline-block;
-  margin-right: 1%;
+  
   text-align: center; }
 
 .body__central__divGlobal__columnaCentral {
   display: inline-block;
-  margin: 0px 1% 0px 1%;
+  margin: 0px 1px 25px 25%;
   width: 25%;
   border-style: dashed;
   text-align: center;
@@ -31,7 +31,8 @@
   height: 30%; }
 
 .btn-danger:hover {
-  color: rgba(255, 60, 0, 0.747);
+  color: rgba(255, 60, 0, 0.747) !important;
+  
   background-color: white !important; }
 
 .titulo {
@@ -134,3 +135,11 @@
 
 .callout-info {
   border-left-color: rgba(255, 60, 0, 0.747); }
+
+.claseFooter{
+  color: white !important ;
+  align: center;
+  text-align: center;
+  background-color: rgba(255, 60, 0, 0.747) !important; 
+  font-size: 18px;
+}
