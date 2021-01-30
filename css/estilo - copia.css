@@ -4,12 +4,12 @@
 .body__central__divGlobal {
   width: 80%;
   display: inline-block;
-  margin-right: 1%;
+  
   text-align: center; }
 
 .body__central__divGlobal__columnaCentral {
   display: inline-block;
-  margin: 0px 1% 0px 1%;
+  margin: 0px 15% 25px 15%;
   width: 25%;
   border-style: dashed;
   text-align: center;
@@ -20,10 +20,10 @@
 
 .body__central__divGlobal__columnaCentral:hover {
   border-style: solid;
-  border-color: rgba(38, 0, 255, 0.781); }
+  border-color: rgba(255, 60, 0, 0.747); }
 
 .btn-danger {
-  background-color: rgba(38, 0, 255, 0.781) !important;
+  background-color: rgba(255, 60, 0, 0.747) !important;
   font-family: 'Times New Roman', Times, serif; }
 
 .imagen__carrusel {
@@ -31,7 +31,8 @@
   height: 30%; }
 
 .btn-danger:hover {
-  color: rgba(38, 0, 255, 0.781);
+  color: rgba(255, 60, 0, 0.747) !important;
+  
   background-color: white !important; }
 
 .titulo {
@@ -89,9 +90,8 @@
   animation-name: saludar;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  animation-duration: 1.5s;
-  animation-delay: 1s;
-  color: rgba(255, 60, 0, 0.747); }
+  animation-duration: 1s;
+  animation-delay: 1s; }
 
 @keyframes saludar {
   0% {
@@ -121,12 +121,12 @@
     height: 40vh; } }
 
 .divisor__menu {
-  border-color: rgba(38, 0, 255, 0.781) !important;
+  border-color: orange;
   border-style: solid;
   height: 1px; }
 
 .columnaCentralImagenAnimacion {
-  transition: all .8s ease;
+  transition: all .5s ease;
   filter: grayscale(85%); }
 
 .columnaCentralImagenAnimacion:hover {
@@ -134,46 +134,22 @@
   filter: grayscale(0%); }
 
 .callout-info {
-  border-left-color: rgba(38, 0, 255, 0.781); }
+  border-left-color: rgba(255, 60, 0, 0.747); }
 
-.body__central__divGlobal__columnaCentral {
-  background: transparent !important;
-  color: white; }
-
-.claseFooter {
-  color: white !important;
+.claseFooter{
+  color: white !important ;
   align: center;
   text-align: center;
-  background-color: rgba(38, 0, 255, 0.781) !important;
-  font-size: 18px; }
-
+  background-color: rgba(255, 60, 0, 0.747) !important; 
+  font-size: 18px;
+}
 .navCentral {
   text-align: center;
-  margin: 0 auto;
-  left: 5%;
-  right: 0px;
+  margin: 0 auto; left:0px; right:0px;
   display: inline;
   align-items: center;
-  background-image: url("imagenes/400.gif");
-  opacity: 90%;
+  background-image: url('imagenes/200.gif');
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  background-position: 10% 25%; }
-
-.navbar-brand {
-  opacity: 100% !important; }
-
-.columnaEquipos {
-  float: left;
-  width: 33.33%;
-  padding: 10px;
-  background-color: transparent; }
-
-.rowEquipos:after {
-  content: "";
-  display: table;
-  clear: both; }
-
-@media screen and (max-width: 600px) {
-  .columnaEquipos {
-    width: 100%; } }
+}

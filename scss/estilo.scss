@@ -1,5 +1,5 @@
-$colorPrincipal : rgba(255, 60, 0, 0.747);
-
+$colorPrincipal : rgba(38, 0, 255, 0.781);
+$colorSecundario: rgba(255, 60, 0, 0.747);
 .body__central{
 border-top: 20px;
 }
@@ -108,8 +108,9 @@ border-top: 20px;
 	animation-name: saludar;
 	animation-iteration-count: 1;
 	animation-timing-function: ease-in;
-	animation-duration: 1s;
+	animation-duration: 1.5s;
 	animation-delay: 1s;
+	color: $colorSecundario;
 
 }
 @keyframes saludar {
@@ -141,13 +142,13 @@ border-top: 20px;
 }
 
 .divisor__menu {
-	border-color:orange;
+	border-color: $colorPrincipal !important ;
 	border-style: solid;
 	height: 1px;
 }
 
 .columnaCentralImagenAnimacion{
-	transition: all .5s ease;
+	transition: all .8s ease;
 	filter: grayscale(85%);
 }
 .columnaCentralImagenAnimacion:hover {
@@ -157,4 +158,45 @@ border-top: 20px;
 .callout-info{
 	border-left-color: $colorPrincipal;
 }
+.body__central__divGlobal__columnaCentral{
+	background:transparent !important;
+	color: white;
+}
+
+.claseFooter{
+	color: white !important ;
+	align: center;
+	text-align: center;
+	background-color:$colorPrincipal !important; 
+	font-size: 18px;
+  }
+  .navCentral {
+	text-align: center;
+	margin: 0 auto; left:5%; right:0px;
+	display: inline;
+	align-items: center;
+	background-image: url('imagenes/400.gif');
+	opacity: 90%;
+	background-repeat: no-repeat;
+	
+	background-size: cover;
+	background-position: 10% 25%;	
+  }
+.navbar-brand{opacity: 100% !important}
+.columnaEquipos {
+	float: left;
+	width: 33.33%;
+	padding: 10px;
+   background-color: transparent;
+  }
+  .rowEquipos:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+  @media screen and (max-width: 600px) {
+	.columnaEquipos {
+	  width: 100%;
+	}
+  }
 ;
