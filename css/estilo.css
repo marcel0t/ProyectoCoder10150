@@ -74,7 +74,7 @@
   font-family: 'Tangerine', cursive;
   text-shadow: 4px 4px 4px #aaa;
   text-align: center;
-  font-size: 100px; }
+  font-size: 90px; }
 
 .contacto {
   display: flex;
@@ -157,6 +157,7 @@
   background-image: url("imagenes/400.gif");
   opacity: 90%;
   background-repeat: no-repeat;
+  height: 130px;
   background-size: cover;
   background-position: 10% 25%; }
 
@@ -167,7 +168,10 @@
   float: left;
   width: 33.33%;
   padding: 10px;
-  background-color: transparent; }
+  background-color: transparent;
+  color: white;
+  text-shadow: 1px 1px black;
+  text-align: center; }
 
 .rowEquipos:after {
   content: "";
@@ -177,3 +181,7 @@
 @media screen and (max-width: 600px) {
   .columnaEquipos {
     width: 100%; } }
+
+.columnaEquiposImagen {
+  width: 280px;
+  height: 250px; }
