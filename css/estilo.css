@@ -190,8 +190,8 @@
 
 .textoAcordeon {
   background: transparent !important;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black;
   color: white;
-  text-shadow: 1px black;
   opacity: 80%; }
 
 .table-striped {
