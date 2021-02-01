@@ -32,7 +32,7 @@
 
 .btn-danger:hover {
   color: rgba(38, 0, 255, 0.781);
-  background-color: white !important; }
+  background-color: black !important; }
 
 .titulo {
   font-size: 150%;
@@ -67,7 +67,7 @@
   text-shadow: none; }
 
 .botonMenu:hover {
-  background-color: black;
+  background-color: black !important;
   color: white; }
 
 .textoCentral {
