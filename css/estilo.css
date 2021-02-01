@@ -185,3 +185,17 @@
 .columnaEquiposImagen {
   width: 280px;
   height: 250px; }
+
+.textoAcordeon {
+  background: transparent !important;
+  color: white;
+  text-shadow: 1px black;
+  opacity: 80%; }
+
+.table-striped {
+  color: white !important;
+  border: 1px black; }
+
+.table {
+  color: white !important;
+  border: 1px black; }
