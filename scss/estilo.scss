@@ -174,7 +174,7 @@ border-top: 20px;
   }
   .navCentral {
 	text-align: center;
-	margin: 0 auto; left:5%; right:0px;
+	margin: 0 auto; right:0px;
 	display: inline;
 	align-items: center;
 	background-image: url('imagenes/400.gif');
@@ -241,4 +241,8 @@ border-top: 20px;
 .colorBarra {
 	color:$colorPrincipal;
 }
+td {color:white !important;	border: 1px black;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; }
+th {color:white !important;	border: 1px black;
+	text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; }
 ;

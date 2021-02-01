@@ -152,7 +152,6 @@
 .navCentral {
   text-align: center;
   margin: 0 auto;
-  left: 5%;
   right: 0px;
   display: inline;
   align-items: center;
@@ -216,3 +215,13 @@
 
 .colorBarra {
   color: rgba(38, 0, 255, 0.781); }
+
+td {
+  color: white !important;
+  border: 1px black;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; }
+
+th {
+  color: white !important;
+  border: 1px black;
+  text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; }
