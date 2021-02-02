@@ -279,3 +279,7 @@ th {
     float: none;
     display: block;
     text-align: left; } }
+
+.col {
+  align-items: center;
+  margin: 10px auto 10px 70px; }
